@@ -9,7 +9,7 @@ moves = ["R", "P", "S"]
 
 while True:
     computer = moves[randint(0,2)]
-    player = input("R, P or S? (or end the game)").lower()
+    player = input("R, P or S? (or end the game)").upper()
     #If player decide to end the game
     if player == "end the game":
         print("The game has ended.")
